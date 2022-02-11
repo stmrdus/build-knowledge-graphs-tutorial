@@ -18,11 +18,11 @@
 
 ### Install dependencies
 
-```
+```python
 !pip install wikipedia-api pandas spacy networkx scipy
 ```
 
-```
+```python
 !python -m spacy download en
 ```
 
@@ -404,3 +404,11 @@ print('Hit@1: {:.4f}'.format(evaluator.hit_at_k(k=1)[0]))
 print('Mean Rank: {:.4f}'.format(evaluator.mean_rank()[0]))
 print('Mean Reciprocal Rank : {:.4f}'.format(evaluator.mrr()[0]))
 ```
+
+## References
+
+[1] Knowledge Graphs With Machine Learning, https://neptune.ai/blog/web-scraping-and-knowledge-graphs-machine-learning
+
+[2] TorchKGE’ s documentation, https://torchkge.readthedocs.io/en/latest/
+
+[3] TorchKGE - TransE model, https://torchkge.readthedocs.io/en/latest/reference/models.html#transe
