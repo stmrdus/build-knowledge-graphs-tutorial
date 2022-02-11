@@ -10,11 +10,28 @@
 
 ## A brief introduction to Web Scraping
 
+Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. The web scraping software may directly access the World Wide Web using the Hypertext Transfer Protocol or a web browser. While web scraping can be done manually by a software user, the term typically refers to automated processes implemented using a bot or web crawler. It is a form of copying in which specific data is gathered and copied from the web, typically into a central local database or spreadsheet, for later retrieval or analysis [Wikipedia].
+
+![](https://www.edureka.co/blog/wp-content/uploads/2018/11/Untitled-1.jpg)
+
+In order to perform web scraping, you can use API. Two key components to web scraping: Crawler and Scraper. A **web crawler**, which we generally call a “spider,” is an artificial intelligence (algorithm) that browses the internet to index and search for content by following links and exploring. And **a scraper** is a specialized tool designed to accurately and quickly extract data from a web page.
 
 ## Introduction to Knowledge Graphs
 
+Knowledge graphs are kind of knowledge base, also known as semantic networks, represents a network of real world entites (i.e. objects, events, situations, or concepts) and the relationships between them. Because this type of knowledge base can be visualized as a graph structure, it is termed as "knowledge graph".
+
+There is a great effort in defining a meaningful definition for knowledge graph. For simply, we can define it as a directed labelled graph in which the labels have well-defined meanings. Its components are nodes (entities), edges (relations), and labels (type of relations, type of entities). Anything can act as a node, for people, computers, etc. An edge or a relation connects a pair of nodes (a pair of entities), captures the relationship or the interactions between two entities, for example, friendship relationship between two people, customer relationship between a company and person, or a network connection between two computers. The labels capture the meaning of the relationship, for example, the friendship relationship between two people. Many implementations of KG uses the term triplet, a set of three items (a subject, a predicate, and an object), that help us to store knowledge graphs on disks. 
+
+![](figs/triple.jpg)
+
+Knowledge graphs have many applications in many areas such as remmendationn system, question answering, and information retrieval. After the release of Google Knowledge Graphs, companies such as Amazon, eBay, Facebook, IBM, LinkedIn and Uber have built the knowledge graph of their own industries. Different organizations have different knowledge graphs.
+
+Since most knowledge graphs are constructed manually or semi-automatically, a large number of implicit entities and relationships have not been discovered, and therefore, the combination of knowledge graphs and ML creates some interesting opportunities. We can use machine learning techniques to train models from knowledge graph data; enhance and enrich the knowledge graph; knowledge graph mining.
+
 
 ## Build a simple Knowledge Graph with Python
+
+In the section, we go step by step to construct a simple Knowledge graph by using Wkipdedia API with some NLP (Natural Language Processing) techniques such as sentence segmentation, entity extraction, relation extraction. Finally with TorchKGE library, we will apply a simple knowledge graph embedding model (TransE) on the created KG.
 
 ### Install dependencies
 
